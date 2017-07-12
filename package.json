@@ -1,0 +1,25 @@
+{
+  "name": "peticion-ajax-planetas",
+  "version": "1.0.0",
+  "description": "\"Empezamos  a  trabajar promesas  con un Json\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claussfrank/Planetas-Promises.git"
+  },
+  "keywords": [
+    "promises"
+  ],
+  "author": "Clauss Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claussfrank/Planetas-Promises/issues"
+  },
+  "homepage": "https://github.com/claussfrank/Planetas-Promises#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
