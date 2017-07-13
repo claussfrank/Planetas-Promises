@@ -8,5 +8,7 @@ app.get ('/',function(req,res){
 
 app.use('/data',express.static(path.join(__dirname,'/data')));
 app.use('/static',express.static(path.join(__dirname,'assets')));
+app.use('/static',express.static(path.join(__dirname,'node_modules')));
+
 
 app.listen(8080);
